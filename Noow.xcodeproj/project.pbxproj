@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2D2E861E775D0600C38C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D2E851E775D0600C38C69 /* AppDelegate.swift */; };
+		AB2D2E881E775D0600C38C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D2E871E775D0600C38C69 /* ViewController.swift */; };
+		AB2D2E8B1E775D0600C38C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2D2E891E775D0600C38C69 /* Main.storyboard */; };
+		AB2D2E8E1E775D0600C38C69 /* Noow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB2D2E8C1E775D0600C38C69 /* Noow.xcdatamodeld */; };
+		AB2D2E901E775D0600C38C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2D2E8F1E775D0600C38C69 /* Assets.xcassets */; };
+		AB2D2E931E775D0600C38C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2D2E911E775D0600C38C69 /* LaunchScreen.storyboard */; };
+		AB2D2E9E1E775D0600C38C69 /* NoowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D2E9D1E775D0600C38C69 /* NoowTests.swift */; };
+		AB2D2EA91E775D0600C38C69 /* NoowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2D2EA81E775D0600C38C69 /* NoowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB2D2E9A1E775D0600C38C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2D2E7A1E775D0600C38C69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2D2E811E775D0600C38C69;
+			remoteInfo = Noow;
+		};
+		AB2D2EA51E775D0600C38C69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2D2E7A1E775D0600C38C69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2D2E811E775D0600C38C69;
+			remoteInfo = Noow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB2D2E821E775D0600C38C69 /* Noow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Noow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2D2E851E775D0600C38C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB2D2E871E775D0600C38C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB2D2E8A1E775D0600C38C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB2D2E8D1E775D0600C38C69 /* Noow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noow.xcdatamodel; sourceTree = "<group>"; };
+		AB2D2E8F1E775D0600C38C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB2D2E921E775D0600C38C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB2D2E941E775D0600C38C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2D2E991E775D0600C38C69 /* NoowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2D2E9D1E775D0600C38C69 /* NoowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoowTests.swift; sourceTree = "<group>"; };
+		AB2D2E9F1E775D0600C38C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2D2EA41E775D0600C38C69 /* NoowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2D2EA81E775D0600C38C69 /* NoowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoowUITests.swift; sourceTree = "<group>"; };
+		AB2D2EAA1E775D0600C38C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2D2E7F1E775D0600C38C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2D2E961E775D0600C38C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2D2EA11E775D0600C38C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB2D2E791E775D0600C38C69 = {
+			isa = PBXGroup;
+			children = (
+				AB2D2E841E775D0600C38C69 /* Noow */,
+				AB2D2E9C1E775D0600C38C69 /* NoowTests */,
+				AB2D2EA71E775D0600C38C69 /* NoowUITests */,
+				AB2D2E831E775D0600C38C69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2D2E831E775D0600C38C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D2E821E775D0600C38C69 /* Noow.app */,
+				AB2D2E991E775D0600C38C69 /* NoowTests.xctest */,
+				AB2D2EA41E775D0600C38C69 /* NoowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2D2E841E775D0600C38C69 /* Noow */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D2E851E775D0600C38C69 /* AppDelegate.swift */,
+				AB2D2E871E775D0600C38C69 /* ViewController.swift */,
+				AB2D2E891E775D0600C38C69 /* Main.storyboard */,
+				AB2D2E8F1E775D0600C38C69 /* Assets.xcassets */,
+				AB2D2E911E775D0600C38C69 /* LaunchScreen.storyboard */,
+				AB2D2E941E775D0600C38C69 /* Info.plist */,
+				AB2D2E8C1E775D0600C38C69 /* Noow.xcdatamodeld */,
+			);
+			path = Noow;
+			sourceTree = "<group>";
+		};
+		AB2D2E9C1E775D0600C38C69 /* NoowTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D2E9D1E775D0600C38C69 /* NoowTests.swift */,
+				AB2D2E9F1E775D0600C38C69 /* Info.plist */,
+			);
+			path = NoowTests;
+			sourceTree = "<group>";
+		};
+		AB2D2EA71E775D0600C38C69 /* NoowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2D2EA81E775D0600C38C69 /* NoowUITests.swift */,
+				AB2D2EAA1E775D0600C38C69 /* Info.plist */,
+			);
+			path = NoowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2D2E811E775D0600C38C69 /* Noow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2D2EAD1E775D0600C38C69 /* Build configuration list for PBXNativeTarget "Noow" */;
+			buildPhases = (
+				AB2D2E7E1E775D0600C38C69 /* Sources */,
+				AB2D2E7F1E775D0600C38C69 /* Frameworks */,
+				AB2D2E801E775D0600C38C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Noow;
+			productName = Noow;
+			productReference = AB2D2E821E775D0600C38C69 /* Noow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB2D2E981E775D0600C38C69 /* NoowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2D2EB01E775D0600C38C69 /* Build configuration list for PBXNativeTarget "NoowTests" */;
+			buildPhases = (
+				AB2D2E951E775D0600C38C69 /* Sources */,
+				AB2D2E961E775D0600C38C69 /* Frameworks */,
+				AB2D2E971E775D0600C38C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2D2E9B1E775D0600C38C69 /* PBXTargetDependency */,
+			);
+			name = NoowTests;
+			productName = NoowTests;
+			productReference = AB2D2E991E775D0600C38C69 /* NoowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB2D2EA31E775D0600C38C69 /* NoowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2D2EB31E775D0600C38C69 /* Build configuration list for PBXNativeTarget "NoowUITests" */;
+			buildPhases = (
+				AB2D2EA01E775D0600C38C69 /* Sources */,
+				AB2D2EA11E775D0600C38C69 /* Frameworks */,
+				AB2D2EA21E775D0600C38C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2D2EA61E775D0600C38C69 /* PBXTargetDependency */,
+			);
+			name = NoowUITests;
+			productName = NoowUITests;
+			productReference = AB2D2EA41E775D0600C38C69 /* NoowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB2D2E7A1E775D0600C38C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = vrwim;
+				TargetAttributes = {
+					AB2D2E811E775D0600C38C69 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BP877E6XHB;
+						ProvisioningStyle = Automatic;
+					};
+					AB2D2E981E775D0600C38C69 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BP877E6XHB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB2D2E811E775D0600C38C69;
+					};
+					AB2D2EA31E775D0600C38C69 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BP877E6XHB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB2D2E811E775D0600C38C69;
+					};
+				};
+			};
+			buildConfigurationList = AB2D2E7D1E775D0600C38C69 /* Build configuration list for PBXProject "Noow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB2D2E791E775D0600C38C69;
+			productRefGroup = AB2D2E831E775D0600C38C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2D2E811E775D0600C38C69 /* Noow */,
+				AB2D2E981E775D0600C38C69 /* NoowTests */,
+				AB2D2EA31E775D0600C38C69 /* NoowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2D2E801E775D0600C38C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2D2E931E775D0600C38C69 /* LaunchScreen.storyboard in Resources */,
+				AB2D2E901E775D0600C38C69 /* Assets.xcassets in Resources */,
+				AB2D2E8B1E775D0600C38C69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2D2E971E775D0600C38C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2D2EA21E775D0600C38C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2D2E7E1E775D0600C38C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2D2E8E1E775D0600C38C69 /* Noow.xcdatamodeld in Sources */,
+				AB2D2E881E775D0600C38C69 /* ViewController.swift in Sources */,
+				AB2D2E861E775D0600C38C69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2D2E951E775D0600C38C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2D2E9E1E775D0600C38C69 /* NoowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2D2EA01E775D0600C38C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2D2EA91E775D0600C38C69 /* NoowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2D2E9B1E775D0600C38C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2D2E811E775D0600C38C69 /* Noow */;
+			targetProxy = AB2D2E9A1E775D0600C38C69 /* PBXContainerItemProxy */;
+		};
+		AB2D2EA61E775D0600C38C69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2D2E811E775D0600C38C69 /* Noow */;
+			targetProxy = AB2D2EA51E775D0600C38C69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB2D2E891E775D0600C38C69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2D2E8A1E775D0600C38C69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB2D2E911E775D0600C38C69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2D2E921E775D0600C38C69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB2D2EAB1E775D0600C38C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB2D2EAC1E775D0600C38C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB2D2EAE1E775D0600C38C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BP877E6XHB;
+				INFOPLIST_FILE = Noow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrwim.Noow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AB2D2EAF1E775D0600C38C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BP877E6XHB;
+				INFOPLIST_FILE = Noow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrwim.Noow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AB2D2EB11E775D0600C38C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BP877E6XHB;
+				INFOPLIST_FILE = NoowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrwim.NoowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noow.app/Noow";
+			};
+			name = Debug;
+		};
+		AB2D2EB21E775D0600C38C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BP877E6XHB;
+				INFOPLIST_FILE = NoowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrwim.NoowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noow.app/Noow";
+			};
+			name = Release;
+		};
+		AB2D2EB41E775D0600C38C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BP877E6XHB;
+				INFOPLIST_FILE = NoowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrwim.NoowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Noow;
+			};
+			name = Debug;
+		};
+		AB2D2EB51E775D0600C38C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BP877E6XHB;
+				INFOPLIST_FILE = NoowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vrwim.NoowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Noow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB2D2E7D1E775D0600C38C69 /* Build configuration list for PBXProject "Noow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2D2EAB1E775D0600C38C69 /* Debug */,
+				AB2D2EAC1E775D0600C38C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2D2EAD1E775D0600C38C69 /* Build configuration list for PBXNativeTarget "Noow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2D2EAE1E775D0600C38C69 /* Debug */,
+				AB2D2EAF1E775D0600C38C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB2D2EB01E775D0600C38C69 /* Build configuration list for PBXNativeTarget "NoowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2D2EB11E775D0600C38C69 /* Debug */,
+				AB2D2EB21E775D0600C38C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB2D2EB31E775D0600C38C69 /* Build configuration list for PBXNativeTarget "NoowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2D2EB41E775D0600C38C69 /* Debug */,
+				AB2D2EB51E775D0600C38C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB2D2E8C1E775D0600C38C69 /* Noow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB2D2E8D1E775D0600C38C69 /* Noow.xcdatamodel */,
+			);
+			currentVersion = AB2D2E8D1E775D0600C38C69 /* Noow.xcdatamodel */;
+			path = Noow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB2D2E7A1E775D0600C38C69 /* Project object */;
+}
