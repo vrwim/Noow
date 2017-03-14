@@ -10,6 +10,46 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Vendors View Controller-->
+        <scene sceneID="SWC-dQ-oOX">
+            <objects>
+                <viewController id="YNr-H1-xnH" customClass="VendorsViewController" customModule="Noow" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="svn-p7-RCm"/>
+                        <viewControllerLayoutGuide type="bottom" id="K8M-wb-H2E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MMv-Nj-DJ7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HRA-LV-sQZ"/>
+                    <connections>
+                        <segue destination="e0S-4j-rLt" kind="show" identifier="showVendorDetail" id="YmK-XC-nZZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h26-Bj-1Nr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857" y="72"/>
+        </scene>
+        <!--Vendor Detail View Controller-->
+        <scene sceneID="jmS-qp-4ZB">
+            <objects>
+                <viewController id="e0S-4j-rLt" customClass="VendorDetailViewController" customModule="Noow" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bx7-u9-NI0"/>
+                        <viewControllerLayoutGuide type="bottom" id="jjX-S5-D3y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3GG-gK-V32">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TlC-JJ-Y7y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2574" y="72"/>
+        </scene>
         <!--Nootropic List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -42,7 +82,7 @@
                     <navigationItem key="navigationItem" id="Pmz-JU-9lV"/>
                     <connections>
                         <outlet property="tableView" destination="rzk-9k-CqZ" id="4mY-W8-3rz"/>
-                        <segue destination="en9-er-8ie" kind="show" id="LIh-5m-1r0"/>
+                        <segue destination="en9-er-8ie" kind="show" identifier="showDetail" id="LIh-5m-1r0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -126,7 +166,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w4a-7h-r9h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2796" y="1508.095952023988"/>
+            <point key="canvasLocation" x="1857" y="1507"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="AVh-9f-7kH">
@@ -141,6 +181,7 @@
                     <connections>
                         <segue destination="etc-FH-f2R" kind="relationship" relationship="viewControllers" id="kJY-2F-eVP"/>
                         <segue destination="Anv-fy-Dmo" kind="relationship" relationship="viewControllers" id="VBB-vf-nc2"/>
+                        <segue destination="cGm-fQ-ldy" kind="relationship" relationship="viewControllers" id="2EZ-yj-ZxH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gqv-uf-rYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -164,7 +205,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wed-2S-aa0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1856.8" y="1507.1964017991006"/>
+            <point key="canvasLocation" x="1076" y="1508"/>
+        </scene>
+        <!--Vendors-->
+        <scene sceneID="MGX-Vt-R3g">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cGm-fQ-ldy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Vendors" id="LVa-eM-Da3"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jAh-eU-oGg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YNr-H1-xnH" kind="relationship" relationship="rootViewController" id="KWI-gp-Z7j"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ofb-s7-AMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="72"/>
         </scene>
     </scenes>
 </document>

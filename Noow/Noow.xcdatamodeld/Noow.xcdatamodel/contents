@@ -6,8 +6,22 @@
         <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="recommendedDosage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="vendors" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Vendor" inverseName="nootropics" inverseEntity="Vendor" syncable="YES"/>
+    </entity>
+    <entity name="Stack" representedClassName="Stack" syncable="YES" codeGenerationType="class">
+        <attribute name="dosage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="method" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="nootropic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Nootropic" syncable="YES"/>
+    </entity>
+    <entity name="Vendor" representedClassName="Vendor" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="nootropics" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Nootropic" inverseName="vendors" inverseEntity="Nootropic" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Nootropic" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Nootropic" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="Stack" positionX="169" positionY="-108" width="128" height="105"/>
+        <element name="Vendor" positionX="-297" positionY="20" width="128" height="88"/>
     </elements>
 </model>

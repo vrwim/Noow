@@ -18,6 +18,8 @@
 		AB4CDCF21E775EC40092C522 /* NootropicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4CDCF01E775EC40092C522 /* NootropicTableViewCell.swift */; };
 		AB4CDCF31E775EC40092C522 /* NootropicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB4CDCF11E775EC40092C522 /* NootropicTableViewCell.xib */; };
 		AB4CDCF51E77612B0092C522 /* NootropicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4CDCF41E77612B0092C522 /* NootropicDetailViewController.swift */; };
+		AB65CA921E7883290078820E /* VendorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB65CA911E7883290078820E /* VendorsViewController.swift */; };
+		AB65CA941E78833E0078820E /* VendorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB65CA931E78833E0078820E /* VendorDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		AB4CDCF01E775EC40092C522 /* NootropicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NootropicTableViewCell.swift; sourceTree = "<group>"; };
 		AB4CDCF11E775EC40092C522 /* NootropicTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NootropicTableViewCell.xib; sourceTree = "<group>"; };
 		AB4CDCF41E77612B0092C522 /* NootropicDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NootropicDetailViewController.swift; sourceTree = "<group>"; };
+		AB65CA911E7883290078820E /* VendorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendorsViewController.swift; sourceTree = "<group>"; };
+		AB65CA931E78833E0078820E /* VendorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendorDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 			children = (
 				AB2D2EB71E775D7000C38C69 /* NootropicListViewController.swift */,
 				AB4CDCF41E77612B0092C522 /* NootropicDetailViewController.swift */,
+				AB65CA911E7883290078820E /* VendorsViewController.swift */,
+				AB65CA931E78833E0078820E /* VendorDetailViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB65CA921E7883290078820E /* VendorsViewController.swift in Sources */,
+				AB65CA941E78833E0078820E /* VendorDetailViewController.swift in Sources */,
 				AB4CDCF51E77612B0092C522 /* NootropicDetailViewController.swift in Sources */,
 				AB2D2E8E1E775D0600C38C69 /* Noow.xcdatamodeld in Sources */,
 				AB2D2EB81E775D7000C38C69 /* NootropicListViewController.swift in Sources */,
