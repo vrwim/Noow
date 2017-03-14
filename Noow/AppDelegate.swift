@@ -23,6 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 			let context = persistentContainer.viewContext
 			
 			// Load a basic set of nootropics and vendors here.
+			// TODO: eventually load this from server
 			let adrafinil = Nootropic(context: context)
 			adrafinil.name = "Adrafinil"
 			adrafinil.image = "https://www.ceretropic.com/161-large_default/adrafinil-powder.jpg"
@@ -50,10 +51,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 			ceretropic.addToNootropics(adrafinil)
 			ceretropic.addToNootropics(tianeptine)
 			ceretropic.addToNootropics(memantine)
-			
-//			adrafinil.addToVendors(ceretropic)
-//			tianeptine.addToVendors(ceretropic)
-//			memantine.addToVendors(ceretropic)
 			
 			saveContext()
 		}
